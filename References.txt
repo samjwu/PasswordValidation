@@ -1,4 +1,5 @@
 index.html
+https://stackoverflow.com/questions/10994335/javascript-head-body-or-jquery
 https://www.w3schools.com/tags/att_form_method.asp
 https://www.w3schools.com/tags/tag_label.asp
 https://stackoverflow.com/questions/7470268/html-input-name-vs-id
@@ -11,3 +12,4 @@ https://www.w3schools.com/cSS/css_padding.asp
 https://www.w3schools.com/css/css_margin.asp
 https://www.w3schools.com/cssref/css_units.asp
 https://www.w3schools.com/css/css_positioning.asp
+https://www.w3schools.com/css/css_attribute_selectors.asp

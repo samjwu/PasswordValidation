@@ -27,6 +27,13 @@ input {
     height: 20px;   
 }
 
+input[type="submit"] {
+    background: #ff8c00;
+    color: #fff;
+    height: 1.5em;
+    font-size: 2em;
+}
+
 span {
     background: #ff8c00;
     position: absolute;
