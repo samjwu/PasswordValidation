@@ -5,3 +5,9 @@ https://stackoverflow.com/questions/7470268/html-input-name-vs-id
 https://teamtreehouse.com/community/what-is-the-difference-between-id-and-name-attributes-in-form-elements
 https://www.w3schools.com/tags/att_input_type.asp
 https://www.w3schools.com/tags/tag_span.asp
+
+styles.css
+https://www.w3schools.com/cSS/css_padding.asp
+https://www.w3schools.com/css/css_margin.asp
+https://www.w3schools.com/cssref/css_units.asp
+https://www.w3schools.com/css/css_positioning.asp
