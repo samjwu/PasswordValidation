@@ -1,0 +1,1 @@
+$("form span").hide();
