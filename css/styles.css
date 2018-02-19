@@ -48,3 +48,13 @@ span {
     color: #fff;
     font-size: 20px;
 }
+
+#pwdreq {
+    background: #ff8c00;
+    position: relative;
+    padding: 5px;
+    width: 400px;
+    margin: -2em auto auto auto;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
