@@ -5,6 +5,7 @@ https://www.w3schools.com/tags/tag_label.asp
 https://stackoverflow.com/questions/7470268/html-input-name-vs-id
 https://teamtreehouse.com/community/what-is-the-difference-between-id-and-name-attributes-in-form-elements
 https://www.w3schools.com/tags/att_input_type.asp
+https://www.w3schools.com/tags/att_input_name.asp
 https://www.w3schools.com/tags/tag_span.asp
 
 styles.css
@@ -17,3 +18,6 @@ https://www.w3schools.com/css/css_attribute_selectors.asp
 scripts.js
 https://api.jquery.com/category/selectors/
 https://api.jquery.com/element-selector/
+http://api.jquery.com/length/
+https://api.jquery.com/keyup/
+https://api.jquery.com/next/
