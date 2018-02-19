@@ -1,22 +1,21 @@
 $("form span").hide();
 
-$("#pwd").keyup(pwderrmsg);
-$("#pwdconf").keyup(pwdconferrmsg);
+$("#pwd").keyup(pwderrmsg).keyup(togglesubmit);
+$("#pwdconf").keyup(pwdconferrmsg).keyup(togglesubmit);
 
 
-/** 
- * Returns true if pwd is 8 char or over, false otherwise
-*/
 function chkpwdlen() {
     return $("#pwd").val().length >= 8;
 }
 
 
-/** 
- * Return true if text in pwd confirmation field matches first pwd
-*/
 function chkpwdmatch() {
     return $("#pwdconf").val() === $("#pwd").val();
+}
+
+
+function cansubmit() {
+    return chkpwdlen() && chkpwdmatch();
 }
 
 
@@ -42,5 +41,19 @@ function pwdconferrmsg() {
     }
     else {
         $(this).next().show();
+    }
+}
+
+
+/** 
+ * Gray out the submit button if fields are invalid
+*/
+function togglesubmit() {
+    $("#submit").prop("disabled", !cansubmit());
+    if(!cansubmit()) {
+        $("#submit").css({background: "#808080", color: "#000"});
+    }
+    else {
+        $("#submit").css({background: "#ff8c00", color: "#fff"});
     }
 }

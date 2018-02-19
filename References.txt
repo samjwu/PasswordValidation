@@ -7,6 +7,7 @@ https://teamtreehouse.com/community/what-is-the-difference-between-id-and-name-a
 https://www.w3schools.com/tags/att_input_type.asp
 https://www.w3schools.com/tags/att_input_name.asp
 https://www.w3schools.com/tags/tag_span.asp
+https://stackoverflow.com/questions/5614399/disabling-submit-button-until-all-fields-have-values
 
 styles.css
 https://www.w3schools.com/cSS/css_padding.asp
@@ -22,3 +23,4 @@ http://api.jquery.com/length/
 https://api.jquery.com/keyup/
 https://api.jquery.com/next/
 https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons
+http://api.jquery.com/prop/
