@@ -1,6 +1,7 @@
 $("form span").hide();
 
-$("#pwd").keyup(errmsg);
+$("#pwd").keyup(pwderrmsg);
+$("#pwdconf").keyup(pwdconferrmsg);
 
 
 /** 
@@ -12,10 +13,31 @@ function chkpwdlen() {
 
 
 /** 
+ * Return true if text in pwd confirmation field matches first pwd
+*/
+function chkpwdmatch() {
+    return $("#pwdconf").val() === $("#pwd").val();
+}
+
+
+/** 
  * Show error message in span tags if pwd invalid
 */
-function errmsg() {
+function pwderrmsg() {
     if(chkpwdlen()) {
+        $(this).next().hide();
+    }
+    else {
+        $(this).next().show();
+    }
+}
+
+
+/** 
+ * Show error message in span tags if pwd conf invalid
+*/
+function pwdconferrmsg() {
+    if(chkpwdmatch()) {
         $(this).next().hide();
     }
     else {

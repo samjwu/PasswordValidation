@@ -21,3 +21,4 @@ https://api.jquery.com/element-selector/
 http://api.jquery.com/length/
 https://api.jquery.com/keyup/
 https://api.jquery.com/next/
+https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons
