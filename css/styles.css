@@ -28,8 +28,8 @@ input {
 }
 
 input[type="submit"] {
-    background: #ff8c00;
-    color: #fff;
+    background: #808080;
+    color: #000;
     height: 1.5em;
     font-size: 2em;
 }
