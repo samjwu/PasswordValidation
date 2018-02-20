@@ -30,13 +30,23 @@ function chkpwd() {
 }
 
 
+function validpwd() {
+    if($("#length").hasClass("valid") && $("#alpha").hasClass("valid") && $("#numeric").hasClass("valid")) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+
 function chkpwdmatch() {
     return $("#pwdconf").val() === $("#pwd").val();
 }
 
 
 function cansubmit() {
-    return chkpwd() && chkpwdmatch();
+    return validpwd() && chkpwdmatch();
 }
 
 
