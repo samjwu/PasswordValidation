@@ -22,6 +22,7 @@ http://mcdlr.com/8/
 https://www.w3schools.com/cssref/pr_background-image.asp
 https://www.quackit.com/css/functions/css_url_function.cfm
 https://webplatform.github.io/docs/css/functions/url/
+https://www.w3schools.com/cssref/css3_pr_background-size.asp
 
 scripts.js
 https://api.jquery.com/category/selectors/
