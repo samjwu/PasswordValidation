@@ -43,16 +43,23 @@ input[type="submit"] {
 
 span {
     background: #ff8c00;
-    position: absolute;
+    position: relative;
     display: block;
     padding: 10px;
     width: 200px;
-    top: 0px;
-    left: 101%;
+    top: -2.5em;
+    left: 103%;
     color: #000;
     font-size: 20px;
     border: 1px solid #000;
     border-radius: 10px;
+}
+
+span::before {
+    content: "\25C0";
+    position: absolute;
+    margin-left: -26px;
+    margin-top: 10px;
 }
 
 ul li {
@@ -80,7 +87,7 @@ ul li {
     top: 20px;
     padding: 0px;
     width: 400px;
-    margin: -2em auto auto auto;
+    margin: -2em auto 40px auto;
     border: 1px solid #000;
     border-radius: 10px;
 
@@ -89,7 +96,7 @@ ul li {
 
 #pwdreq h4 {
     text-align: center;
-    margin: -1em 0 0 0;
+    margin: -1em 0 0px 0;
 }
 
 #pwdreq::before {

@@ -1,7 +1,7 @@
 $("form span").hide();
 
-$("#pwd").keyup(pwderrmsg).keyup(togglesubmit).focus(showpwdreqbox).blur(hidepwdreqbox);
-$("#pwdconf").keyup(pwdconferrmsg).keyup(togglesubmit);
+$("#pwd").keyup(togglesubmit).focus(showpwdreqbox).blur(hidepwdreqbox);
+$("#pwdconf").keyup(pwdconferrmsg).keyup(togglesubmit).focus(pwdconferrmsg).blur(hidepwdconf);
 
 
 function chkpwdlen() {
@@ -26,6 +26,11 @@ function showpwdreqbox() {
 
 function hidepwdreqbox() {
     $("#pwdreq").hide();
+}
+
+
+function hidepwdconf() {
+    $("#pwdcon span").hide();
 }
 
 
