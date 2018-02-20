@@ -1,6 +1,6 @@
 $("form span").hide();
 
-$("#pwd").keyup(pwderrmsg).keyup(togglesubmit);
+$("#pwd").keyup(pwderrmsg).keyup(togglesubmit).focus(showpwdreqbox).blur(hidepwdreqbox);
 $("#pwdconf").keyup(pwdconferrmsg).keyup(togglesubmit);
 
 
@@ -16,6 +16,16 @@ function chkpwdmatch() {
 
 function cansubmit() {
     return chkpwdlen() && chkpwdmatch();
+}
+
+
+function showpwdreqbox() {
+    $("#pwdreq").show();
+}
+
+
+function hidepwdreqbox() {
+    $("#pwdreq").hide();
 }
 
 

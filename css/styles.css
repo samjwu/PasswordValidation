@@ -49,8 +49,10 @@ span {
     width: 200px;
     top: 0px;
     left: 101%;
-    color: #fff;
+    color: #000;
     font-size: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
 }
 
 ul li {
@@ -81,7 +83,7 @@ ul li {
     margin: -2em auto auto auto;
     border: 1px solid #000;
     border-radius: 10px;
-    
+
     display: none;
 }
 

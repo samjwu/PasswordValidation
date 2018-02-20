@@ -32,3 +32,7 @@ https://api.jquery.com/keyup/
 https://api.jquery.com/next/
 https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons
 http://api.jquery.com/prop/
+https://www.w3schools.com/jquery/event_focus.asp
+https://api.jquery.com/focus/
+https://www.w3schools.com/jquery/event_blur.asp
+https://api.jquery.com/blur/
