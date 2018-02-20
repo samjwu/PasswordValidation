@@ -16,6 +16,9 @@ https://www.w3schools.com/cssref/css_units.asp
 https://www.w3schools.com/css/css_positioning.asp
 https://www.w3schools.com/css/css_attribute_selectors.asp
 https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+https://www.w3schools.com/cssref/sel_before.asp
+https://www.w3schools.com/cssref/pr_gen_content.asp
+http://mcdlr.com/8/
 
 scripts.js
 https://api.jquery.com/category/selectors/

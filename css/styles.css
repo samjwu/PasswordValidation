@@ -53,10 +53,16 @@ span {
     font-size: 20px;
 }
 
+ul li {
+    list-style-type: none;
+}
+
 #pwdreq {
     background: #ff8c00;
     position: relative;
-    padding: 5px;
+    text-align: left;
+    top: 20px;
+    padding: 0px;
     width: 400px;
     margin: -2em auto auto auto;
     border: 1px solid #000;
@@ -64,5 +70,14 @@ span {
 }
 
 #pwdreq h4 {
-    margin: 1em auto;
+    text-align: center;
+    margin: -1em 0 0 0;
+}
+
+#pwdreq::before {
+    content: "\25B2";
+    margin-left: 48%;
+    margin-right: 50%;
+    position: relative;
+    top: -18px;
 }
