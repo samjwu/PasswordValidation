@@ -1,11 +1,32 @@
 $("form span").hide();
 
-$("#pwd").keyup(togglesubmit).focus(showpwdreqbox).blur(hidepwdreqbox);
+$("#pwd").keyup(chkpwd).keyup(togglesubmit).focus(showpwdreqbox).blur(hidepwdreqbox);
 $("#pwdconf").keyup(pwdconferrmsg).keyup(togglesubmit).focus(pwdconferrmsg).blur(hidepwdconf);
 
 
-function chkpwdlen() {
-    return $("#pwd").val().length >= 8;
+function chkpwd() {
+    var pwdinput = $("#pwd").val();
+    
+    if(pwdinput.length < 8) {
+        $("#length").removeClass("valid").addClass("invalid");
+    }
+    else {
+        $("#length").removeClass("invalid").addClass("valid");
+    }
+
+    if(!pwdinput.match(/[a-zA-Z]/)) {
+        $("#alpha").removeClass("valid").addClass("invalid");
+    }
+    else {
+        $("#alpha").removeClass("invalid").addClass("valid");
+    }
+
+    if(!pwdinput.match(/\d/)) {
+        $("#numeric").removeClass("valid").addClass("invalid");
+    }
+    else {
+        $("#numeric").removeClass("invalid").addClass("valid");
+    }
 }
 
 
@@ -15,7 +36,7 @@ function chkpwdmatch() {
 
 
 function cansubmit() {
-    return chkpwdlen() && chkpwdmatch();
+    return chkpwd() && chkpwdmatch();
 }
 
 
@@ -34,9 +55,6 @@ function hidepwdconf() {
 }
 
 
-/** 
- * Show error message in span tags if pwd invalid
-*/
 function pwderrmsg() {
     if(chkpwdlen()) {
         $(this).next().hide();
@@ -47,9 +65,6 @@ function pwderrmsg() {
 }
 
 
-/** 
- * Show error message in span tags if pwd conf invalid
-*/
 function pwdconferrmsg() {
     if(chkpwdmatch()) {
         $(this).next().hide();
@@ -60,9 +75,6 @@ function pwdconferrmsg() {
 }
 
 
-/** 
- * Gray out the submit button if fields are invalid
-*/
 function togglesubmit() {
     $("#submit").prop("disabled", !cansubmit());
     if(!cansubmit()) {

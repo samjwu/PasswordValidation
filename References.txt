@@ -36,3 +36,7 @@ https://www.w3schools.com/jquery/event_focus.asp
 https://api.jquery.com/focus/
 https://www.w3schools.com/jquery/event_blur.asp
 https://api.jquery.com/blur/
+https://api.jquery.com/removeclass/
+https://api.jquery.com/addclass/
+https://www.w3schools.com/jsref/jsref_match.asp
+https://www.w3schools.com/jsref/jsref_obj_regexp.asp
