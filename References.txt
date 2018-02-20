@@ -19,6 +19,9 @@ https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
 https://www.w3schools.com/cssref/sel_before.asp
 https://www.w3schools.com/cssref/pr_gen_content.asp
 http://mcdlr.com/8/
+https://www.w3schools.com/cssref/pr_background-image.asp
+https://www.quackit.com/css/functions/css_url_function.cfm
+https://webplatform.github.io/docs/css/functions/url/
 
 scripts.js
 https://api.jquery.com/category/selectors/
